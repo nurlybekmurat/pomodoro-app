@@ -1,0 +1,21 @@
+.faqWrapper {
+  margin-bottom: 25px;
+  max-width: 530px;
+}
+
+.faqTitle {
+  margin-bottom: 3px;
+}
+
+.faqItem {
+  color: var(--black);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+}
+
+.faqItem::before {
+  content: "•";
+  color: #B7280F;
+  margin-right: 15px;
+}

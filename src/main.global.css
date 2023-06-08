@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'SFUIDisplay';
+  font-weight: 700;
+  src: url('./assets/fonts/SFUIDisplay-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SFUIDisplay';
+  font-weight: 500;
+  src: url('./assets/fonts/SFUIDisplay-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SFUIDisplay';
+  font-weight: 400;
+  src: url('./assets/fonts/SFUIDisplay-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SFUIDisplay';
+  font-weight: 300;
+  src: url('./assets/fonts/SFUIDisplay-Light.woff2') format('woff2');
+}
+
+:root {
+  --black: #333;
+  --greyE4: #E4E4E4;
+  --greyE5: #E5E5E5;
+  --greyC4: #C4C4C4;
+  --greyF4: #F4F4F4;
+  --grey99: #999;
+  --green: #A8B64F;
+  --greenDarker: #899441; 
+  --red: #DC3E22;
+  --redMedium: #EE735D;
+  --redLight: #EA8979;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'SFUIDisplay', serif;
+}
+* {
+  color: var(--black);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0;
+  color: var(--black);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.listItem {
+  height: 5px;
+  width: 77px;
+  background-color: var(--greyC4);
+  align-self: flex-end;
+}
+
+.listItem:not(:last-child) {
+  margin-right: 32px;
+}
+
+.listItemActive {
+  background-color: var(--red);
+}
+
+.focus.active {
+  background-color: #FFDDA9;
+}
+
+.pause.active {
+  background-color: #DFDCFE;
+}
+
+.stops.active {
+  background-color: #C5F1FF;
+}
+
+.focus-icon.active path {
+  stroke: #FFAE35;
+}
+
+.pause-icon.active path {
+  stroke: #9C97D7;
+}
+
+.stops-icon.active path{
+  stroke: #7FC2D7;
+}

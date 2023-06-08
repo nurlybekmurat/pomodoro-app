@@ -1,0 +1,21 @@
+.header {
+  padding: 15px 0;
+  background-color: #fff;
+  box-shadow: 0px 10px 63px rgba(0, 0, 0, 0.07);
+  margin-bottom: 100px;
+}
+
+.headerWrapper {
+  max-width: 1310px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .header  {
+    margin-bottom: 30px;
+  }
+}

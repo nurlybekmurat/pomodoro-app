@@ -1,0 +1,33 @@
+.StatisticsSideBar {
+  max-width: 296px;
+  width: 100%;
+}
+
+.StatisticsLayout {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 1200px) {
+  .StatisticsLayout {
+    flex-direction: column;
+  }
+  .StatisticsSideBar {
+    max-width: unset;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .StatisticsLayout {
+    gap: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .StatisticsSideBar {
+    grid-template-columns: 1fr;
+  }
+}

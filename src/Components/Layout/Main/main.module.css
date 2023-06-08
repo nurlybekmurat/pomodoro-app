@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 180px;
+}
+
+@media (max-width: 992px) {
+  .main {
+    flex-direction: column-reverse;
+  }
+}

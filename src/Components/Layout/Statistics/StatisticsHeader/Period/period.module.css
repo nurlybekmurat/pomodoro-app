@@ -1,0 +1,23 @@
+.dropdownContainer {
+  display: flex;
+  align-items: center;
+  padding: 19px 15px;
+  background-color: var(--greyF4);
+  width: 100%;
+  max-width: 370px;
+}
+
+.currentPeriod {
+  display: block;
+  flex: 1 1 240px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--black);
+}
+
+@media (max-width: 768px) {
+  .dropdownContainer {
+    max-width: unset;
+  }
+}

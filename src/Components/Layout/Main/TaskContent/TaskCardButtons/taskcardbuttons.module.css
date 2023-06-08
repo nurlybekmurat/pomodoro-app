@@ -1,0 +1,66 @@
+.buttonsContainer {
+  margin: 0 auto;
+}
+
+.btn {
+  font-family: inherit;
+  padding: 19px 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.btn:not(:last-child) {
+  margin-right: 25px;
+}
+
+.btnPrimary {
+  background-color: var(--green);
+  border: 2px solid var(--green);
+}
+
+.btnPrimary:hover {
+  background-color: var(--greenDarker);
+  border: 2px solid var(--greenDarker);
+}
+
+.btnSecondary {
+  background-color: transparent;
+  border: 2px solid var(--red);
+  color: var(--red);
+}
+
+.btnSecondary:hover {
+  background-color: var(--red);
+  border: 2px solid var(--red);
+  color: #fff;
+}
+
+.isDisabled {
+  border: 2px solid var(--greyC4);
+  color: var(--greyC4);
+  cursor: auto;
+  pointer-events: none;
+}
+
+@media (max-width: 475px) {
+  .buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    padding: 0 35px;
+  }
+  .btn:not(:last-child) {
+    margin-right: unset;
+  }
+  .btn {
+    width: 100%;
+  }
+}

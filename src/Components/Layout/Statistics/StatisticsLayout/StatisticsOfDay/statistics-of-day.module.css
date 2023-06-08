@@ -1,0 +1,32 @@
+.stats {
+  background-color: var(--greyF4);
+  padding: 25px;
+  margin-bottom: 32px;
+  height: 100%;
+  max-height: 260px;
+}
+
+.day {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.statsText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--black);
+}
+
+.statsTime {
+  color: var(--red);
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  .stats {
+    width: 100%;
+  }
+}

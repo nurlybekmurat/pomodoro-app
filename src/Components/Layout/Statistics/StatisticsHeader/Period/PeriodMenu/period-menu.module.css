@@ -1,0 +1,13 @@
+.menu {
+  background-color: var(--greyF4);
+}
+
+.menuItem {
+  padding: 19px 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--black);
+  border-top: 1px solid #dedede;
+  cursor: pointer;
+}

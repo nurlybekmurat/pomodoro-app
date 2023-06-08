@@ -1,0 +1,34 @@
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--greyC4);
+  padding: 19px 40px;
+  margin-bottom: 70px;
+  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+}
+
+.taskTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  color: #fff;
+}
+
+.taskCount {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #fff;
+}
+
+.onWork {
+  background-color: var(--red);
+}
+
+.onPause {
+  background-color: var(--green);
+}

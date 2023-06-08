@@ -1,0 +1,60 @@
+.modalWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #0000007f;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: fit-content;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.closeBtn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.modalTitle {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0 59px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 17px;
+  color: var(--black);
+}
+
+.deleteBtn {
+  padding: 19px 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  color: #fff;
+  background-color: var(--red);
+  align-self: center;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.preventBtn {
+  text-decoration: underline;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--black);
+}

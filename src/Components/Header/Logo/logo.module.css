@@ -1,0 +1,22 @@
+.LogoWrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Logo {
+  margin-right: 12px;
+}
+
+.LogoText {
+  color: var(--red);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+@media (max-width: 475px) {
+  .LogoText {
+    display: none;
+  }
+}

@@ -1,0 +1,54 @@
+.TaskListItem {
+  padding: 15px 0;
+  border-top: 1px solid var(--greyE4);
+  display: flex;
+  align-items: center;
+  max-width: 370px;
+}
+.TaskListItem:last-child {
+  border-bottom: 1px solid var(--greyE4);
+}
+.listIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  padding: 4px 8px;
+  margin-right: 10px;
+  border-radius: 100%;
+  border: 1px solid var(--greyC4);
+  color: var(--black);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.TaskItemInput {
+  border: none;
+  padding: 4px 5px;
+  outline: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--black);
+}
+
+.TaskItemInput:focus {
+  background: var(--greyF4);
+}
+
+.taskDone {
+  text-decoration: line-through;
+  user-select: none;
+}
+
+@media (max-width: 992px) {
+  .TaskListItem {
+    max-width: unset;
+  }
+}

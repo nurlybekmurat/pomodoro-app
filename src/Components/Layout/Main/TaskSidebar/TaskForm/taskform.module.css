@@ -1,0 +1,69 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.input {
+  max-width: 370px;
+  margin-bottom: 25px;
+  padding: 19px 15px;
+  background: var(--greyF4);
+  border: none;
+  color: var(--grey99);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.input::placeholder {
+  font-family: inherit;
+  color: var(--grey99);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.button {
+  background: var(--green);
+  border: 1px solid var(--green);
+  padding: 19px 50px;
+  width: fit-content;
+  margin-bottom: 25px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.errorMessage {
+  position: absolute;
+  bottom: 5px;
+  color: var(--red);
+}
+
+.taskTotalTime {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--grey99);
+}
+
+.inputError {
+  position: absolute;
+  top: 60px;
+  color: var(--red);
+}
+
+@media (max-width: 992px) {
+  .input {
+    max-width: unset;
+  }
+  .button {
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .title {
+    margin-bottom: 8px;
+  }
+}

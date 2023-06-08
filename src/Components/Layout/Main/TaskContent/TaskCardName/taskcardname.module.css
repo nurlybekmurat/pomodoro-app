@@ -1,0 +1,18 @@
+.tasNameContainer {
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.taskNumber {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--grey99);
+}
+
+.taskName {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--black);
+}
